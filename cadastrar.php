@@ -73,10 +73,9 @@ require('config.php');
 			</div>
 			<div class="form-group">
 				<label>Imagem</label>
-				<input class="form form-control" type="file" name="imagem">
+				<input class="form form-control" type="file" required name="imagem">
 			</div>
 			<button type="submit" class="btn btn-success">CADASTRAR</button>
-			<a href="filtrar.php"><button class="btn btn-danger">VOLTAR</button></a>
 		</div>
 		</div>
 		</div>

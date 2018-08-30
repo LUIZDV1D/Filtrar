@@ -67,13 +67,14 @@
 			while ($dados = mysqli_fetch_assoc($query)) {
 				echo "
 				<div class='col-md-3'>
-				<img class='img-responsive' style='width: 50%;' src='images/".$dados['imagem']."'>
+				<img class='img-responsive' style='width: 300px; height: 300px;' src='images/".$dados['imagem']."'>
 				<br>
 				<b>Curso: ".$dados['nome_curso']."</b>
 				<br>Carga horária: 
 				".$dados['ch']." horas;
 				<br>Nível: 
 				".$dados['nivel'].";
+				<br><br><br><br>
 				</div>
 				";
 				
